@@ -1,0 +1,8 @@
+<?php
+
+$dbhost = "localhost";
+$dbuser = "user";
+$dbpass = "password";
+$dbname = "dbname";
+$conecta = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)
+        or die(mysql_error("No se pudo  conectar a la base de datos"));
